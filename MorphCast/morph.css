@@ -1,0 +1,94 @@
+
+#videoElement {
+	width: 700px;
+	height: 400px;
+}
+
+#start_over {
+      position: absolute;
+      background-color: #051094;
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      display: flex;
+      border: 2px solid 051094;
+      border-radius: 25px;
+      padding: 20px;
+}
+
+#start_over span {
+      position: absolute;
+      font-size: 10px;
+      color: white;
+      display: block;
+      display: flex;
+      justify-content: center;
+}
+
+#myProgress {
+      width: 820px;
+      top: 100px;
+      background-color: gray;
+}
+
+#myBar {
+        width: 820px;
+      height: 25px;
+      background-color: green;
+}
+
+.wrapper {
+      position: relative;
+      width: 800px;
+      height: 400px;
+      pointer-events: none;
+      display: flex;
+      right: 200px;
+
+}
+
+.charts {
+      width: 100%;
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+}
+
+.column {
+  	float: left;
+  	width: 150%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  	content: "";
+  	display: table;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+  
+.atencion {
+    padding-left: 8%;
+    padding-top: 5%;  
+}
+
+.grupo-7{
+    display: flex;
+
+}
+  
+.botonIniciar{
+    display: flex;
+}
+ 
+#imagen{
+    display: none;
+}
+  
+.hide{
+    display: none;
+}
